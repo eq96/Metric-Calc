@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metric Calculator - By EQ</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main>
+        <div class="bg"><img src="./image/Logo-EQ2.png" alt="E. Quiroga"></div>
+        <div class="dark-active">
+            <div class="numberBG">
+                <h1 class="title">Metric/Imperial Unit Conversion</h1>
+                <input class="numConvert" type="number" id="num" name="num">
+            </div>
+            <div class="results">
+                <p class="lengthTitle">Length (Meter/Feet)</p>
+                <p class="lengthResult"><span id="inputMeter-el">0</span> meters = <span id="meterToFeet-el">0</span> feet | <span id="inputFeet-el">0</span> feet = <span id="feetToMeter-el">0</span> meters</p>
+               
+                <p class="volumeTitle">Volume (Liters/Gallon)</p>
+                <p class="volumeResult"><span id="inputLiter-el">0</span> Liter(s) = <span id="literToGallon-el">0</span> gallon(s) | <span id="inputGallon-el">0</span> gallon(s) = <span id="gallonToLiter-el">0</span> Liter(s)</p>
+                
+                <p class="massTitle">Mass (Kilograms/Pounds)</p>
+                <p class="massResult"><span id="inputKilo-el">0</span> kilo(s) = <span id="kiloToPound-el">0</span> pound(s) | <span id="inputPound-el">0</span> pound(s) = <span id="poundToKilo-el">0</span> kilo(s)</p>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </main>
+</body>
+</html>
